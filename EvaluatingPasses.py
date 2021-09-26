@@ -5,17 +5,7 @@ Created on Mon Sep 20 16:36:04 2021
 @author: deanp
 
 Evaluating Passes
-
-This code closely follows that of David Sumpter's xG model code in the following
-repo: 
 """
-
-# Client really wants to find players who are able to make difficult,
-# but successful passes. To solve this problem start by using the Wyscout data 
-# to create a statistical model (logistic regression for example) that predicts 
-# pass success as a function of where on the pitch the pass is taken. In the 
-# first model use the only the start co-ordinates of the pass to predict 
-# success
 
 #%%
 import pandas as pd
