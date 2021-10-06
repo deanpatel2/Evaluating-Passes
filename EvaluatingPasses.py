@@ -14,9 +14,6 @@ repo:
 import pandas as pd
 import numpy as np
 import json
-import os.path
-import sys
-sys.path.append(os.path.join(os.path.dirname('C:/Users/deanp/OneDrive/Desktop/Football Analytics/Modelling Football Course/SoccermaticsForPython-master'), '..'))
 import FCPython
 import matplotlib.pyplot as plt
 #%%
